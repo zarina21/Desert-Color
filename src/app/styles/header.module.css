@@ -1,0 +1,34 @@
+.header{
+    background-color: white ;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+.header .navegador{
+    display: flex;
+}
+.header .navegador div{
+    display: flex;
+    padding: 10px;
+}
+.header .navegador a{
+    text-decoration: none;
+    color:rgb(50, 130, 223) ;
+}
+.header .inicio{
+    display: flex;
+    justify-content: center;
+}
+.header .inicio div {
+    border: solid  rgb(50, 130, 223) ;
+    padding: 0px 10px;
+    border-radius: 20px;
+
+
+    margin: 10px;
+}
+.header .inicio div a{
+    text-decoration: none;
+    color: rgb(50, 130, 223) ;
+}
