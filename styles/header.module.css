@@ -3,7 +3,8 @@
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;   
+    justify-content: space-around;
+    padding-top: 8px;
 }
 .header .navegador{
     display: flex;

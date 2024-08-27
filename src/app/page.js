@@ -1,14 +1,15 @@
+import styles from "../../styles/Home.module.css"
 import Image from "next/image";
-import styles from "./page.module.css";
-import Header from "./header";
-import Products from "./products";
-
 
 export default function Home() {
   return (
     <div>
-      <Header />
-      <Products />
+      <div>promocion</div>
+      <div>productos mas populares</div>
+      <div>catalogo</div>
+      <div>instagram</div>
+      <div>testimonios</div>
     </div>
   );
 }
+

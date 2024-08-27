@@ -1,4 +1,4 @@
-import QueryingClass from "../../queryingclass";
+import QueryingClass from "../../../queryingclass";
 
 export const getProducts = async () => {
     const productsCollectionRef = collection(db, 'Productos');

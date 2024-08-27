@@ -1,0 +1,37 @@
+.columns{
+    display: flex;
+}
+.columns li{
+    list-style: none;
+}
+.columns .categorias{
+    color: rgb(109, 108, 108);
+    font-family: '__Inter_36bd41', '__Inter_Fallback_36bd41';
+    padding: 10px;
+}
+.columns .categorias .titleCategorie{
+    padding-left: 40px;
+}
+.columns .categorias .titleCategorie h2{
+    margin: 0px;
+}
+
+.columns .lista ol li{
+    margin-bottom: 5px;
+    unicode-bidi: isolate;
+}
+.columns .lista ol li a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(109, 108, 108);
+}
+.columns .listaProductos{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.columns .listaProductos .producto{
+    display: flex;
+    flex-wrap: wrap;
+}
