@@ -43,7 +43,7 @@ const Header = () => {
                         <hr class="navbar-divider"/>
                         <a class="navbar-item">
                             Report an issue
-                        </a>
+                        </a>    
                         </div>
                     </div>
                     </div>
