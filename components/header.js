@@ -21,7 +21,7 @@ const Header = () => {
                 <div id="navbarBasicExample" class="navbar-menu">
                     <div class="navbar-start">
                     <Link href="/" class="navbar-item">
-                        Home
+                        Inicio
                     </Link>
                     <Link href="/Shop" class="navbar-item">
                         Shop
