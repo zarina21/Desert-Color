@@ -46,6 +46,18 @@ class Querying {
   async findByMultiple(collectionName, clauseArr) {
     return await this.findBy(collectionName, clauseArr);
   }
+
+  // Nuevo método para verificar si el nombre ya existe
+  async checkIfNameExists(name) {
+    try {
+      const q = query(collection(db, "client"), where("name", "==", name));
+      const querySnapshot = await getDocs(q);
+      return !querySnapshot.empty; // Retorna true si el nombre ya existe
+    } catch (e) {
+      console.error("Error al verificar el nombre:", e);
+      throw new Error("Error al verificar el nombre");
+    }
+  }
 }
 
 const QueryingClass = new Querying();

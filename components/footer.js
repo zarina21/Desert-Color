@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="content has-text-centered">
                 <p>
-                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
+                <strong>Desert Color USA</strong> by <a href="/">Nova</a>.
                 The source code is licensed
                 <a href="https://opensource.org/license/mit">MIT</a>. The
                 website content is licensed

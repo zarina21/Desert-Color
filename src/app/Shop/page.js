@@ -1,47 +1,22 @@
-import styles from "../../../styles/shop.module.css"
+
 import Link from "next/link";
 import MiniaturaProduct from "../../../components/miniaturaProduct";
+import MenuShop from "../../../components/cuerpo/menuShop";
 
 export default function shopPage() {
     return (
-    <div className={styles.columns}>
-        <div className={styles.categorias}>
-            <div className={styles.titleCategorie}>
-                <h2>Categories</h2>
-            </div>
-            <div className={styles.lista}>
-                <ol>
-                    <li>
-                        <Link href="/">Majestic Products</Link>
-                    </li>
-                    <li>
-                        <Link href="/">Business Card</Link>
-                    </li>
-                    <li>
-                        <Link href="/">Marketing Products</Link>
-                    </li>
-                    <li>
-                        <Link href="/">Sign and Banners</Link>
-                    </li>
-                    <li>
-                        <Link href="/">Labels and Stikers</Link>
-                    </li>
-                </ol>
-            </div>
-        </div>
         <div>
-            <div className={styles.listaProductos}>
-                <div>
-                    <MiniaturaProduct/>
-                </div>
-                <div>
-                    <MiniaturaProduct/>
-                </div>
-                <div>
-                    <MiniaturaProduct/>
+            <div class="fixed-grid has-6-cols">
+                <div class="grid">
+                    <div class="cell is-col-span-1">
+                        <MenuShop/>
+                    </div>
+                    <div class="cell is-col-span-4">
+                        <MiniaturaProduct/>
+                    </div>
+                    <div class="cell">Cell 3</div>
                 </div>
             </div>
         </div>
-    </div>
     );
 }
